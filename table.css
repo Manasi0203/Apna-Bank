@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+} 
+
+table.tab,th,td,tr{
+	letter-spacing: 2px;
+	border: 1px solid #ff3d00;
+	border-collapse: collapse;
+	border-color:#ff3d00; 
+	padding: 15px;
+	/* background-color: #080008; */
+	background-color: aliceblue;
+	/* color: aliceblue; */
+	color: black;
+	
+	/* width: 300%; */
+	
+}
+
+.py-2{
+	color: black;
+}
+
+th,td{
+	padding: 5px;
+}
+
+/* th {
+	background-color: #080008;
+	color: aliceblue;
+	
+  }
+td{
+	text-align: center;
+	background-color: #080008;
+	color: aliceblue; 
+}*/
+/* button{
+	border:none;
+	background: #32a1ab;
+    transition: 1s;
+	color: #ff3d00;
+} */
+
+.text-center{
+	color: #ff3d00;
+
+}
+
+/*@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+} */
+

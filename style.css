@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box; 
+    /* background-color: #080008; */
+    background-color: aliceblue;
+}
+
+.header{
+    height: 20vh;
+    width: 100%;
+    padding: 0 8%;
+    /* background: #080008; */
+    background-color: aliceblue;
+    position: relative;
+}
+
+
+.header h1{
+    font-size: 70px;
+    color: #ff3d00;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 120px;
+}
+.nav-links{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin:0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #000;
+    /* color: #ff3d00; */
+    padding: 5px 0;
+    position: relative;
+    font-size: 18px;
+}
+
+.nav-links li a::after{
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-links li a:hover::after{
+    width: 100%;
+}
+
+form{
+    display: flex;
+    padding: 3%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form h2{
+    color: #ff3d00;
+    
+}
+.form-control{
+    width: 60%;
+}
+input{
+    width:80%;
+    color: #ff3d00;
+    margin: 23px;
+    padding: 14px;
+    font-size: 22px;
+    border: 2px solid #ff3d00;
+    border-radius: 12px;
+    outline: none;
+    
+}
+.btn{
+    background-color: #ff3d00;
+    /* color: #fff; */
+    color: black;
+    padding: 11px 29px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer; 
+}
+
+
+.sld{
+    height: 100vh;
+    /* background-color: #080008; */
+    background-color: aliceblue;
+}
+
+.footer{
+    /* background-color: #080008; */
+    background-color: aliceblue;
+}

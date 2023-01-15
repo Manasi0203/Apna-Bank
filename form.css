@@ -1,0 +1,7 @@
+label {
+    color: #ff3d00;
+    font-weight: bold;
+    display: block;
+  }
+  label:after { content: ": " }
+  
